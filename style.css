@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #264653;
+    display: grid;
+    place-items: center;
+}
+
+.developer-name{
+    margin-top: 30px;
+    font-size: 30px;
+    opacity: 0.3;
+}
+
+#fact{
+    display: none;
+}
+h1{
+    color: #5c0bb9;
+    z-index: 1;
+    font-family: 'Fredoka One', cursive;
+    
+}
+
+.row{
+    margin-top: 15%;
+    background: #a8dadc;
+    width: 50vw;
+    height: max-content;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #a8dadc;
+}
+#header{
+    display: grid;
+    place-items: center;
+}
+#instruction{
+    margin-left: 6%;
+    font-weight: bolder;
+}
+#fact{
+    margin-left: 3%;
+    font-weight: bolder;
+}
+#box{
+    display: grid;
+    place-items: center;
+    margin-top: 3%;
+}
+input[type=number]{
+    background: transparent;
+    width: 70%;
+    height: 150%;
+}
+#fact{
+    margin-top: 4%;
+}
+#factText{
+    margin-top: 2%;
+}
